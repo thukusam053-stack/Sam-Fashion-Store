@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Register | Sam Fashion Store</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+<h1>Sam Fashion Store</h1>
+</div>
+
+<nav>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+<li><a href="shop.html">Shop</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="cart.html">Cart</a></li>
+<li><a href="login.html">Login</a></li>
+<li><a href="register.html">Register</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="register-container">
+
+<h2>Create Your Account</h2>
+
+<form id="registerForm">
+
+<label>Full Name</label>
+<input type="text" id="fullname" placeholder="Enter your full name" required>
+
+<label>Email Address</label>
+<input type="email" id="email" placeholder="Enter your email" required>
+
+<label>Phone Number</label>
+<input type="tel" id="phone" placeholder="07XXXXXXXX" required>
+
+<label>Password</label>
+<input type="password" id="password" placeholder="Create password" required>
+
+<label>Confirm Password</label>
+<input type="password" id="confirmPassword" placeholder="Confirm password" required>
+
+<button type="button" onclick="registerUser()">Register</button>
+
+</form>
+
+<p id="registerMessage"></p>
+
+<p>Already have an account?</p>
+
+<a href="login.html">Login Here</a>
+
+</section>
+
+<footer>
+
+<p>&copy; 2026 Sam Fashion Store. All Rights Reserved.</p>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
